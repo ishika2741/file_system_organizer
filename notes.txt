@@ -18,6 +18,8 @@ node .\FileOrganiser.js organise     <- Process array in CLI
  node .\FileOrganiser.js organise Input2 Input 3  <- Process array in CLI
  [ 'organise', 'Input2', 'Input', '3' ]           <- Array sliced from index 2 of Process array
 
+
+
 let inputArr = process.argv.slice(2, 4)
 console.log(inputArr)
 node .\FileOrganiser.js organise Input2 Input 3    <-Process array in CLI
