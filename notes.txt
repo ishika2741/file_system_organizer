@@ -8,15 +8,17 @@ InputAt2                             <- Output is from second index of process a
 
 
 
-// let inputArr = process.argv.slice(2)
-// console.log(inputArr)
-// node .\FileOrganiser.js organise     <- Process array in CLI
-// [ 'organise' ]                       <- Array sliced from index 2 of Process array
+let inputArr = process.argv.slice(2)
+console.log(inputArr)
+node .\FileOrganiser.js organise     <- Process array in CLI
+[ 'organise' ]                       <- Array sliced from index 2 of Process array
 
-// node .\FileOrganiser.js organise Input2 Input 3  <- Process array in CLI
-// [ 'organise', 'Input2', 'Input', '3' ]           <- Array sliced from index 2 of Process array
 
-// let inputArr = process.argv.slice(2, 4)
-// console.log(inputArr)
-// node .\FileOrganiser.js organise Input2 Input 3  <-Process array in CLI
-// [ 'organise', 'Input2' ]                         <- Array sliced frmo 2 index to 4 index
+
+ node .\FileOrganiser.js organise Input2 Input 3  <- Process array in CLI
+ [ 'organise', 'Input2', 'Input', '3' ]           <- Array sliced from index 2 of Process array
+
+let inputArr = process.argv.slice(2, 4)
+console.log(inputArr)
+node .\FileOrganiser.js organise Input2 Input 3    <-Process array in CLI
+[ 'organise', 'Input2' ]                           <- Array sliced frmo 2 index to 4 index
